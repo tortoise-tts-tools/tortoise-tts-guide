@@ -32,6 +32,6 @@ Select a GPU (in the menu, go to `Runtime` > `Change runtime type` > `Hardware a
 
 Press the run/play button next to each cell. Listen to the audio.
 
-. . .
+## Fine-Tuning
 
-[To Be Continued...]
+[Coming Soon]
