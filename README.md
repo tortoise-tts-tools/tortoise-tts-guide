@@ -112,3 +112,7 @@ Custom-tuning coming soon...
 ## About
 
 This is a multi-part work-in-progress series about running + finetuning tortoise TTS. If you're serious about finetuning it, please consider using a non-colab GPU.
+
+## License
+
+This document and all modifications to the notebooks are licensed under CC-BY-NC-SA 4.0. If you want to use these materials for commercial purposes (e.g. making an audiobook/podcast/etc), please contact us. For attribution, please add attribution in the audio itself.
