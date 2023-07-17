@@ -68,6 +68,14 @@ Basically, if you want a simple GUI, use the section above.
 
 Custom-tuning coming soon...
 
+## Resources
+
+- [Tortoise TTS](https://github.com/neonbjb/tortoise-tts)
+- [Tortoise TTS Fast](https://github.com/152334H/tortoise-tts-fast)
+- [Tortoise TTS Fastest](https://github.com/manmay-nakhashi/tortoise-tts-fastest)
+- [DL Art School](https://github.com/neonbjb/DL-Art-School)
+- [DL Art School Fork for Tortoise TTS](https://github.com/152334H/DL-Art-School)
+
 ## About
 
 This is a multi-part work-in-progress series about running + finetuning tortoise TTS. If you're serious about finetuning it, please consider using a non-colab GPU.
