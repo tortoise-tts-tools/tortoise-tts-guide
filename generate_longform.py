@@ -1,4 +1,3 @@
-
 audio_list = []
 
 # Loop through each text in the array
@@ -20,4 +19,4 @@ concatenated_audio = torch.cat(audio_list, dim=1)
 torchaudio.save('generated.wav', concatenated_audio, 24000)
 
 # Display the concatenated audio
-ipd.Audio('generated.wav')
+IPython.display.Audio('generated.wav')
