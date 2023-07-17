@@ -16,6 +16,18 @@ If any of these repositories becomes unavailable, please open an Issue (I've tri
 
 To start Inference, we will use `tortoise-tts-fastest`. Another possibility is to use [this solution](https://git.ecker.tech/mrq/ai-voice-cloning/) (which I have tested for inference)
 
+Click the button below:
+
+<a target="_blank" href="https://colab.research.google.com/github/fakerybakery/tortoise-tts-guide/blob/main/tortoise_tts_fast.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+Fill out all the forms (`text` is the text you want it to say)
+
+Select a GPU (in the menu, go to `Runtime` > `Change runtime type` > `Hardware accelerator`. Select `GPU`. Click `Save`.
+
+Press the run/play button next to each cell. Listen to the audio.
+
 . . .
 
 [To Be Continued...]
