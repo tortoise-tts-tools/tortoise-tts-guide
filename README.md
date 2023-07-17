@@ -22,6 +22,10 @@ Click the button below:
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
+(The notebook now works after much tweaking.)
+
+On a free colab, generating the first stanza of The Raven by Edgar Allan Poe (9 seconds) took around 24 seconds. Not the fastest, but much better than before.
+
 Fill out all the forms (`text` is the text you want it to say)
 
 Select a GPU (in the menu, go to `Runtime` > `Change runtime type` > `Hardware accelerator`. Select `GPU`. Click `Save`.
