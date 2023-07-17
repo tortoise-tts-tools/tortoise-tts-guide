@@ -30,6 +30,8 @@ This is the easiest way to train + use the interface.
 
 Basically, if you want a simple GUI, use the section above.
 
+**COMING SOON:** How to load a custom model
+
 To start Inference, we will use `tortoise-tts-fastest`. Another possibility is to use [this solution](https://git.ecker.tech/mrq/ai-voice-cloning/) (which I have tested for inference)
 
 Click the button below:
@@ -54,6 +56,7 @@ Press the run/play button next to each cell. Listen to the audio.
 
 Basically, if you want a simple GUI, use the section above.
 
+Custom-tuning coming soon...
 
 ## About
 
