@@ -18,6 +18,14 @@ If any of these repositories becomes unavailable, please open an Issue (I've tri
 
 If you don't have a CUDA GPU, this may not work.
 
+## Easy GUI + Training Interface
+
+This is the easiest way to train + use the interface.
+
+<a target="_blank" href="https://colab.research.google.com/github/fakerybakery/tortoise-tts-guide/blob/main/mrq_colab.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 ## Inference
 
 To start Inference, we will use `tortoise-tts-fastest`. Another possibility is to use [this solution](https://git.ecker.tech/mrq/ai-voice-cloning/) (which I have tested for inference)
