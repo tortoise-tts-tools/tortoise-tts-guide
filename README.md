@@ -12,6 +12,10 @@ Tortoise TTS recently gained a new maintainer, @manmay-nakhashi. Before becoming
 
 If any of these repositories becomes unavailable, please open an Issue (I've tried to archived most of them)
 
+## Before you start
+
+If you don't have a CUDA GPU, this may not work.
+
 ## Inference
 
 To start Inference, we will use `tortoise-tts-fastest`. Another possibility is to use [this solution](https://git.ecker.tech/mrq/ai-voice-cloning/) (which I have tested for inference)
