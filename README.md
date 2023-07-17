@@ -2,6 +2,8 @@
 
 Tortoise (TorToiSe) TTS is one of the best TTS (text-to-speech) programs available. In fact, it is even rumored to power the popular ElevenLabs TTS service.
 
+The goal of this is to make Tortoise TTS accessible for all, without having to pay for ElevenLabs!
+
 Tortoise TTS is remarkably slow, however there are several enhancements we can use to speed it up.
 
 Before we begin: I do NOT endorse any repo/website/etc linked here. USE AT YOUR OWN RISK!!!
