@@ -75,6 +75,8 @@ Custom-tuning coming soon...
 - [Tortoise TTS Fastest](https://github.com/manmay-nakhashi/tortoise-tts-fastest)
 - [DL Art School](https://github.com/neonbjb/DL-Art-School)
 - [DL Art School Fork for Tortoise TTS](https://github.com/152334H/DL-Art-School)
+- [Tortoise TTS on Hugging Face](https://huggingface.co/jbetker/tortoise-tts-v2)
+- [Tortoise TTS DVAE Download](https://huggingface.co/jbetker/tortoise-tts-v2/resolve/3704aea61678e7e468a06d8eea121dba368a798e/.models/dvae.pth)
 
 ## About
 
