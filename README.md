@@ -18,7 +18,7 @@ If any of these repositories becomes unavailable, please open an Issue (I've tri
 
 If you don't have a CUDA GPU, this may not work.
 
-## Easy GUI + Training Interface
+## Easy GUI for Inference + Training Interface
 
 This is the easiest way to train + use the interface.
 
@@ -27,6 +27,8 @@ This is the easiest way to train + use the interface.
 </a>
 
 ## Inference
+
+Basically, if you want a simple GUI, use the section above.
 
 To start Inference, we will use `tortoise-tts-fastest`. Another possibility is to use [this solution](https://git.ecker.tech/mrq/ai-voice-cloning/) (which I have tested for inference)
 
@@ -50,7 +52,8 @@ Press the run/play button next to each cell. Listen to the audio.
 
 ## Fine-Tuning
 
-[Coming Soon]
+Basically, if you want a simple GUI, use the section above.
+
 
 ## About
 
