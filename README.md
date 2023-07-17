@@ -22,6 +22,8 @@ Click the button below:
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
+[Non-Colab/Other GPU: Download notebook](https://raw.githubusercontent.com/fakerybakery/tortoise-tts-guide/main/tortoise_tts_fast.ipynb)
+
 (The notebook now works after much tweaking.)
 
 On a free colab, generating the first stanza of The Raven by Edgar Allan Poe (9 seconds) took around 24 seconds. Not the fastest, but much better than before.
@@ -35,3 +37,7 @@ Press the run/play button next to each cell. Listen to the audio.
 ## Fine-Tuning
 
 [Coming Soon]
+
+## About
+
+This is a multi-part work-in-progress series about running + finetuning tortoise TTS. If you're serious about finetuning it, please consider using a non-colab GPU.
