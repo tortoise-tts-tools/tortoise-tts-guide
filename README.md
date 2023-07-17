@@ -62,6 +62,37 @@ Select a GPU (in the menu, go to `Runtime` > `Change runtime type` > `Hardware a
 
 Press the run/play button next to each cell. Listen to the audio.
 
+### Longform Audio
+
+Making an audiobook? After the `text` and `preset` section, create a new Code cell:
+
+```python
+text = """
+your
+multiline
+audiobook
+"""
+trimmed_lines = [line.strip() for line in text.strip().split('\n') if line.strip()]
+```
+
+Then, make another Code cell:
+
+```python
+audio_list = []
+voice = 'train_dotrice' #@param {type:"string"}
+for txt in trimmed_lines:
+
+    #@markdown Load it and send it through Tortoise.
+    voice_samples, conditioning_latents = load_voice(voice)
+    gen = tts.tts_with_preset(txt, voice_samples=voice_samples, conditioning_latents=conditioning_latents, 
+                              preset=preset)
+    audio_list.append(gen.squeeze(0).cpu())
+concatenated_audio = torch.cat(audio_list, dim=1)
+torchaudio.save('generated.wav', concatenated_audio, 24000)
+IPython.display.Audio('generated.wav')
+```
+
+
 ## Fine-Tuning
 
 Basically, if you want a simple GUI, use the section above.
