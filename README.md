@@ -45,7 +45,7 @@ Basically, if you want a simple GUI, use the section above.
 
 **COMING SOON:** How to load a custom model
 
-To start Inference, we will use `tortoise-tts-fastest`. Another possibility is to use [this solution](https://git.ecker.tech/mrq/ai-voice-cloning/) (which I have tested for inference)
+To start Inference, we will use the main `tortoise-tts` repo. Another possibility is to use [this solution](https://git.ecker.tech/mrq/ai-voice-cloning/) (which I have tested for inference)
 
 Click the button below:
 
@@ -55,7 +55,7 @@ Click the button below:
 
 [Download](https://raw.githubusercontent.com/fakerybakery/tortoise-tts-guide/main/tortoise_tts.ipynb)
 
-UPDATE: We no longer need to use Tortoise TTS Fastest as the changes have been merged upstream. If you still want to use it, click [here](https://colab.research.google.com/github/fakerybakery/tortoise-tts-guide/blob/main/tortoise_tts_fast.ipynb) ([download](https://raw.githubusercontent.com/fakerybakery/tortoise-tts-guide/main/tortoise_tts_fast.ipynb))
+**UPDATE: We no longer need to use Tortoise TTS Fastest as the changes have been merged upstream. If you still want to use it, click [here](https://colab.research.google.com/github/fakerybakery/tortoise-tts-guide/blob/main/tortoise_tts_fast.ipynb) ([download](https://raw.githubusercontent.com/fakerybakery/tortoise-tts-guide/main/tortoise_tts_fast.ipynb))**
 
 (The notebook now works after much tweaking.)
 
