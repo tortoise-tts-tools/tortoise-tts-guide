@@ -60,6 +60,7 @@ Experience the convenience of utilizing a user-friendly graphical interface for 
 <a target="_blank" href="https://colab.research.google.com/github/fakerybakery/tortoise-tts-guide/blob/main/mrq_colab.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
+
 ## Inference
 
 For a simplified GUI experience, refer to the section above.
