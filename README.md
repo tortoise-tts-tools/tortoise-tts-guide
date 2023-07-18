@@ -1,5 +1,3 @@
-<img src="banner.png" width=300>
-
 # tortoise-tts-guide
 
 Jump to: [Inference](#inference) - [Fine-Tuning](#fine-tuning)
