@@ -49,11 +49,13 @@ To start Inference, we will use `tortoise-tts-fastest`. Another possibility is t
 
 Click the button below:
 
-<a target="_blank" href="https://colab.research.google.com/github/fakerybakery/tortoise-tts-guide/blob/main/tortoise_tts_fast.ipynb">
+<a target="_blank" href="https://colab.research.google.com/github/fakerybakery/tortoise-tts-guide/blob/main/tortoise_tts.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-[Non-Colab/Other GPU: Download notebook](https://raw.githubusercontent.com/fakerybakery/tortoise-tts-guide/main/tortoise_tts_fast.ipynb)
+[Download](https://raw.githubusercontent.com/fakerybakery/tortoise-tts-guide/main/tortoise_tts.ipynb)
+
+UPDATE: We no longer need to use Tortoise TTS Fastest as the changes have been merged upstream. If you still want to use it, click [here](https://colab.research.google.com/github/fakerybakery/tortoise-tts-guide/blob/main/tortoise_tts_fast.ipynb) ([download](https://raw.githubusercontent.com/fakerybakery/tortoise-tts-guide/main/tortoise_tts_fast.ipynb))
 
 (The notebook now works after much tweaking.)
 
@@ -64,10 +66,6 @@ Fill out all the forms (`text` is the text you want it to say)
 Select a GPU (in the menu, go to `Runtime` > `Change runtime type` > `Hardware accelerator`. Select `GPU`. Click `Save`.
 
 Press the run/play button next to each cell. Listen to the audio.
-
-### Longform Audio
-
-Making an audiobook? After the `text` and `preset` section, create a new Code cell:
 
 ```python
 text = """
