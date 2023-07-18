@@ -10,6 +10,10 @@ Tortoise TTS is remarkably slow, however there are several enhancements we can u
 
 Before we begin: I do NOT endorse any repo/website/etc linked here. USE AT YOUR OWN RISK!!!
 
+## Discuss (all things) Tortoise TTS
+
+[Discussions](https://github.com/fakerybakery/tortoise-tts-guide/discussions)
+
 ## Demo
 
 "The Raven" by Edgar Allan Poe. Generated using voice `train_dotrice`.
@@ -55,7 +59,7 @@ Click the button below:
 
 [Download](https://raw.githubusercontent.com/fakerybakery/tortoise-tts-guide/main/tortoise_tts.ipynb)
 
-**UPDATE: We no longer need to use Tortoise TTS Fastest as the changes have been merged upstream. If you still want to use it, click [here](https://colab.research.google.com/github/fakerybakery/tortoise-tts-guide/blob/main/tortoise_tts_fast.ipynb) ([download](https://raw.githubusercontent.com/fakerybakery/tortoise-tts-guide/main/tortoise_tts_fast.ipynb))**
+**UPDATE: We no longer need to use `tortoise-tts-fastest` as it seems to be abandoned as the changes have been merged upstream. If you still want to use it, click [here](https://colab.research.google.com/github/fakerybakery/tortoise-tts-guide/blob/main/tortoise_tts_fast.ipynb) ([download](https://raw.githubusercontent.com/fakerybakery/tortoise-tts-guide/main/tortoise_tts_fast.ipynb))**
 
 (The notebook now works after much tweaking.)
 
