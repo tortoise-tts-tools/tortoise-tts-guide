@@ -120,6 +120,7 @@ Custom-tuning coming soon...
 
 ## Resources
 
+- [Tortoise TTS + WebUI (AKA "the mrq repo")](https://git.ecker.tech/mrq/ai-voice-cloning)
 - [Tortoise TTS](https://github.com/neonbjb/tortoise-tts)
 - [Tortoise TTS Fast](https://github.com/152334H/tortoise-tts-fast)
 - [Tortoise TTS Fastest](https://github.com/manmay-nakhashi/tortoise-tts-fastest)
