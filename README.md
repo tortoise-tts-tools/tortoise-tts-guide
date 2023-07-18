@@ -20,7 +20,11 @@ Before we begin: I do NOT endorse any repo/website/etc linked here. USE AT YOUR 
 
 <a href="https://github.com/fakerybakery/tortoise-tts-guide/raw/main/raven.mp3" download>Download File</a>
 
-I generated this on a free Colab instance.
+I generated this on a free Colab instance (T4 GPU).
+
+## Speed
+
+On all the fastest settings, the speed has an approximate 1:2 ratio (1 minute of audio takes 2 minutes to generate) on a free Colab instance. It will likely be many times faster on better GPUs, such as A100/A10Gs.
 
 ## Introduction
 
