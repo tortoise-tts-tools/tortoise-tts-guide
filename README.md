@@ -4,13 +4,11 @@
 
 Jump to: [Inference](#inference) - [Fine-Tuning](#fine-tuning)
 
-Tortoise (TorToiSe) TTS is one of the best TTS (text-to-speech) programs available. In fact, it is even rumored to power the popular ElevenLabs TTS service.
+Tortoise TTS stands as a leading text-to-speech (TTS) program renowned for its exceptional capabilities. It has gained considerable recognition, with some suggesting that it may power the highly acclaimed ElevenLabs TTS service.
 
-The goal of this is to make Tortoise TTS accessible for all, without having to pay for ElevenLabs!
+My primary objective is to ensure the accessibility of Tortoise TTS to a wider audience, eliminating the need for costly ElevenLabs subscriptions. Although Tortoise TTS exhibits a noticeably slower performance, there exist numerous enhancements at our disposal to optimize its speed and efficiency.
 
-Tortoise TTS is remarkably slow, however there are several enhancements we can use to speed it up.
-
-Before we begin: I do NOT endorse any repo/website/etc linked here. USE AT YOUR OWN RISK!!!
+It is important to note that I do not endorse any models listed in this guide. Use this guide at your own risk!
 
 ## Discuss (all things) Tortoise TTS
 
@@ -18,11 +16,13 @@ Before we begin: I do NOT endorse any repo/website/etc linked here. USE AT YOUR 
 
 ## About
 
-This is a multi-part work-in-progress series about running + finetuning tortoise TTS. If you're serious about finetuning it, please consider using a paid Colab GPU or a hosting provider.
+This is a multi-part work-in-progress series about running + finetuning tortoise TTS. If you're serious about finetuning it, please consider using a paid Colab GPU or a cloud hosting provider.
 
 ## The Goal
 
-Eventually, the goal is to create audiobooks from public domain books and release them for free or for a minimal charge. Unfortunately, further fine-tuning must be done to create models with quality that allows this.
+Ultimately, our objective is to produce audiobooks derived from public domain books and distribute them either for free or at a minimal cost. However, achieving this goal requires additional refinement in order to develop high-quality models that meet the necessary standards.
+
+By dedicating time to further fine-tuning, we can ensure that the resulting models possess the desired level of quality and fidelity required for the creation of these audiobooks. This meticulous process will enable us to provide accessible and enjoyable content to a wide audience while maintaining the integrity of the original literary works.
 
 ## Demo
 
@@ -34,38 +34,41 @@ I generated this on a free Colab instance (T4 GPU).
 
 ## Speed
 
-On all the fastest settings, the speed has an approximate 1:2 ratio (1 minute of audio takes 2 minutes to generate) on a free Colab instance. It will likely be many times faster on better GPUs, such as A100/A10Gs.
+When employing the fastest settings on a free Colab instance, the synthesis speed exhibits an approximate ratio of 1:2, indicating that generating 1 minute of audio takes approximately 2 minutes. However, it is crucial to note that utilizing superior GPUs like A100 or A10Gs is expected to yield significantly faster results, potentially achieving a substantially higher synthesis speed compared to the aforementioned ratio.
 
 ## Introduction
 
-Tortoise TTS recently gained a new maintainer, @manmay-nakhashi. Before becoming the Tortoise maintainer, he created [`tortoise-tts-fastest`](https://github.com/manmay-nakhashi/tortoise-tts-fastest), a fork of [`tortoise-tts-fast`](https://github.com/152334H/tortoise-tts-fast). The author of `tortoise-tts-fast`, @152334H, [works for ElevenLabs](https://github.com/152334H) and created a forked version of [`DL-Art-School`](https://github.com/152334H/DL-Art-School). `DL-Art-School` was originally created by the author of Tortoise TTS, however he did not release finetuning code due to ["ethical"](https://github.com/neonbjb/tortoise-tts/discussions/292#discussioncomment-4876055) and legal concerns. The forked version supports finetuning Tortoise TTS, which we will use in the fine-tuning section. Fine-tuning requires a certain DVAE model, which the author meant to keep from the public, but he accidentally pushed the model to HuggingFace (and later deleted it). Oops! Thankfully, various people have saved archives of the model, **and it's still available in the Hugging Face commit history.** You can download the model [here](https://huggingface.co/jbetker/tortoise-tts-v2/resolve/3704aea61678e7e468a06d8eea121dba368a798e/.models/dvae.pth) (open an Issue if the link goes down), but you won't need it because it will automatically be downloaded when needed. But feel free to archive a copy.
+Tortoise TTS has recently welcomed a new maintainer, @manmay-nakhashi, who has made notable contributions to the project. Prior to taking on this role, @manmay-nakhashi developed the forked version called [`tortoise-tts-fastest`](https://github.com/manmay-nakhashi/tortoise-tts-fastest), derived from the original repository [`tortoise-tts-fast`](https://github.com/152334H/tortoise-tts-fast), which was created by @152334H, an employee at ElevenLabs, as evident from their GitHub profile.
+
+It is worth mentioning that @152334H also created a modified version of [`DL-Art-School`](https://github.com/152334H/DL-Art-School), another project associated with the author of Tortoise TTS. While the original author refrained from releasing the finetuning code for ethical and legal considerations, @152334H's forked version supports the finetuning process, which will be utilized in the upcoming fine-tuning section.
+
+The fine-tuning procedure requires a specific DVAE model, initially intended to be kept private by the author. However, an accidental push to Hugging Face made the model briefly accessible before being deleted. Fortunately, several individuals have archived copies of the model, and it is still available in the commit history of the Hugging Face repository. You can download the model [here](https://huggingface.co/jbetker/tortoise-tts-v2/resolve/3704aea61678e7e468a06d8eea121dba368a798e/.models/dvae.pth) (please open an Issue if the link becomes unavailable). Although the model will be automatically downloaded when required, you are welcome to create an additional archive copy for safekeeping.
 
 ## Notes
 
- - If any of these repositories becomes unavailable, please open an Issue (I've tried to archived most of them)
- - On Colab, inference + training will be extremely slow. Please consider using a cloud provider (they're really not that expensive, and you can get hundreds of dollars in free credits)
+- In the event that any of these repositories become inaccessible, kindly open an Issue to notify the relevant parties. Efforts have been made to archive most of the repositories to ensure their availability.
+- It is important to note that running inference and conducting training on Colab may result in exceedingly slow processes. To mitigate this, I strongly recommend considering the utilization of a cloud provider. Cloud providers offer efficient computing resources at reasonable costs, and you may even be eligible for substantial free credits, allowing you to experiment without incurring significant expenses.
 
 ## Before you start
 
-If you don't have a CUDA GPU, this may not work.
+Please note that having a CUDA GPU is essential for the successful execution of this process. If you do not possess a CUDA-compatible GPU, there is a possibility that the following steps may not function as intended.
 
-## Easy GUI for Inference + Training Interface
+## GUI
 
-This is the easiest way to train + use the interface.
+Experience the convenience of utilizing a user-friendly graphical interface for both inference and training purposes with ease.
 
 <a target="_blank" href="https://colab.research.google.com/github/fakerybakery/tortoise-tts-guide/blob/main/mrq_colab.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
-
 ## Inference
 
-Basically, if you want a simple GUI, use the section above.
+For a simplified GUI experience, refer to the section above.
 
-**COMING SOON:** How to load a custom model
+**COMING SOON:** Guide on loading a custom model.
 
-To start Inference, we will use the main `tortoise-tts` repo. Another possibility is to use [this solution](https://git.ecker.tech/mrq/ai-voice-cloning/) (which I have tested for inference)
+To initiate the inference process, we will utilize the primary `tortoise-tts` repository. Alternatively, you can explore [this solution](https://git.ecker.tech/mrq/ai-voice-cloning/) (which I have personally tested for inference).
 
-Click the button below:
+Click the button below to begin:
 
 <a target="_blank" href="https://colab.research.google.com/github/fakerybakery/tortoise-tts-guide/blob/main/tortoise_tts.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
@@ -73,62 +76,25 @@ Click the button below:
 
 [Download](https://raw.githubusercontent.com/fakerybakery/tortoise-tts-guide/main/tortoise_tts.ipynb)
 
-**UPDATE: We no longer need to use `tortoise-tts-fastest` as it seems to be abandoned as the changes have been merged upstream. If you still want to use it, click [here](https://colab.research.google.com/github/fakerybakery/tortoise-tts-guide/blob/main/tortoise_tts_fast.ipynb) ([download](https://raw.githubusercontent.com/fakerybakery/tortoise-tts-guide/main/tortoise_tts_fast.ipynb))**
-
-(The notebook now works after much tweaking.)
-
-On a free colab, generating the first stanza of The Raven by Edgar Allan Poe (9 seconds) took around 24 seconds. Not the fastest, but much better than before.
-
-Fill out all the forms (`text` is the text you want it to say)
-
-Select a GPU (in the menu, go to `Runtime` > `Change runtime type` > `Hardware accelerator`. Select `GPU`. Click `Save`.
-
-Press the run/play button next to each cell. Listen to the audio.
-
-```python
-text = """
-your
-multiline
-audiobook
-"""
-trimmed_lines = [line.strip() for line in text.strip().split('\n') if line.strip()]
-```
-
-Then, make another Code cell:
-
-```python
-audio_list = []
-voice = 'train_dotrice' #@param {type:"string"}
-for txt in trimmed_lines:
-
-    #@markdown Load it and send it through Tortoise.
-    voice_samples, conditioning_latents = load_voice(voice)
-    gen = tts.tts_with_preset(txt, voice_samples=voice_samples, conditioning_latents=conditioning_latents, 
-                              preset=preset)
-    audio_list.append(gen.squeeze(0).cpu())
-concatenated_audio = torch.cat(audio_list, dim=1)
-torchaudio.save('generated.wav', concatenated_audio, 24000)
-IPython.display.Audio('generated.wav')
-```
-
+**UPDATE: The use of `tortoise-tts-fastest` is no longer necessary as it appears to have been abandoned, with the changes merged upstream. However, if you still wish to use it, click [here](https://colab.research.google.com/github/fakerybakery/tortoise-tts-guide/blob/main/tortoise_tts_fast.ipynb) ([download](https://raw.githubusercontent.com/fakerybakery/tortoise-tts-guide/main/tortoise_tts_fast.ipynb)).**
 
 ## Fine-Tuning
 
-Basically, if you want a simple GUI, use the section above.
+For a simplified GUI experience, refer to the section above.
 
-Custom-tuning coming soon...
+Guide for custom fine-tuning is coming soon...
 
 ## Resources
 
-- [Tortoise TTS + WebUI (AKA "the mrq repo")](https://git.ecker.tech/mrq/ai-voice-cloning)
+- [Tortoise TTS + WebUI (also known as "the mrq repo")](https://git.ecker.tech/mrq/ai-voice-cloning)
 - [Tortoise TTS](https://github.com/neonbjb/tortoise-tts)
 - [Tortoise TTS Fast](https://github.com/152334H/tortoise-tts-fast)
 - [Tortoise TTS Fastest](https://github.com/manmay-nakhashi/tortoise-tts-fastest)
 - [DL Art School](https://github.com/neonbjb/DL-Art-School)
 - [DL Art School Fork for Tortoise TTS](https://github.com/152334H/DL-Art-School)
 - [Tortoise TTS on Hugging Face](https://huggingface.co/jbetker/tortoise-tts-v2)
-- [Tortoise TTS DVAE Download](https://huggingface.co/jbetker/tortoise-tts-v2/resolve/3704aea61678e7e468a06d8eea121dba368a798e/.models/dvae.pth)
+- [Download Tortoise TTS DVAE Model](https://huggingface.co/jbetker/tortoise-tts-v2/resolve/3704aea61678e7e468a06d8eea121dba368a798e/.models/dvae.pth)
 
 ## License
 
-Different parts of this repository have different license. Please see the [license statement](LICENSE.md) for more information.
+Different parts of this repository are governed by various licenses. Please refer to the [license statement](LICENSE.md) for further details.
