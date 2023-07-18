@@ -131,4 +131,4 @@ Custom-tuning coming soon...
 
 ## License
 
-Different parts of this repository have different license. Please see the [license statement](LICENSE) for more information.
+Different parts of this repository have different license. Please see the [license statement](LICENSE.md) for more information.
