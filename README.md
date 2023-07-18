@@ -95,6 +95,15 @@ Guide for custom fine-tuning is coming soon...
 - [Tortoise TTS on Hugging Face](https://huggingface.co/jbetker/tortoise-tts-v2)
 - [Download Tortoise TTS DVAE Model](https://huggingface.co/jbetker/tortoise-tts-v2/resolve/3704aea61678e7e468a06d8eea121dba368a798e/.models/dvae.pth)
 
+## Tortoise Tips
+
+Custom model path (for finetuned model):
+
+```python
+from tortoise.api import TextToSpeech
+tts = TextToSpeech(use_deepspeed=True, kv_cache=True, half=True, models_dir="<Model Directory>")
+```
+
 ## License
 
 Different parts of this repository are governed by various licenses. Please refer to the [license statement](LICENSE.md) for further details.
