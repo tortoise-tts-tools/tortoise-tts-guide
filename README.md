@@ -2,6 +2,8 @@
 
 # tortoise-tts-guide
 
+Jump to: [Inference](#inference) - [Fine-Tuning](#fine-tuning)
+
 Tortoise (TorToiSe) TTS is one of the best TTS (text-to-speech) programs available. In fact, it is even rumored to power the popular ElevenLabs TTS service.
 
 The goal of this is to make Tortoise TTS accessible for all, without having to pay for ElevenLabs!
@@ -13,6 +15,14 @@ Before we begin: I do NOT endorse any repo/website/etc linked here. USE AT YOUR 
 ## Discuss (all things) Tortoise TTS
 
 [Discussions](https://github.com/fakerybakery/tortoise-tts-guide/discussions)
+
+## About
+
+This is a multi-part work-in-progress series about running + finetuning tortoise TTS. If you're serious about finetuning it, please consider using a paid Colab GPU or a hosting provider.
+
+## The Goal
+
+Eventually, the goal is to create audiobooks from public domain books and release them for free or for a minimal charge. Unfortunately, further fine-tuning must be done to create models with quality that allows this.
 
 ## Demo
 
@@ -117,10 +127,6 @@ Custom-tuning coming soon...
 - [DL Art School Fork for Tortoise TTS](https://github.com/152334H/DL-Art-School)
 - [Tortoise TTS on Hugging Face](https://huggingface.co/jbetker/tortoise-tts-v2)
 - [Tortoise TTS DVAE Download](https://huggingface.co/jbetker/tortoise-tts-v2/resolve/3704aea61678e7e468a06d8eea121dba368a798e/.models/dvae.pth)
-
-## About
-
-This is a multi-part work-in-progress series about running + finetuning tortoise TTS. If you're serious about finetuning it, please consider using a non-colab GPU.
 
 ## License
 
