@@ -25,9 +25,9 @@ By dedicating time to further fine-tuning, we can ensure that the resulting mode
 
 ## Examples
 
-Some public domain literature
+Some public domain literature has been converted to audio.
 
-## _The Raven_ by Edgar Allan Poe
+### _The Raven_ by Edgar Allan Poe
 
  - Voice: `train_dotrice`
  - Preset: `ultra_fast`
@@ -37,7 +37,7 @@ Some public domain literature
  - Release Date: July 17, 2023
  - Status: Completed
 
-## _The Lady, or the Tiger?_ by Frank R. Stockton
+### _The Lady, or the Tiger?_ by Frank R. Stockton
 
  - Voice: `train_dotrice`
  - Preset: `ultra_fast`
