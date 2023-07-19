@@ -25,13 +25,27 @@ By dedicating time to further fine-tuning, we can ensure that the resulting mode
 
 ## Examples
 
+Some public domain literature
+
 ## _The Raven_ by Edgar Allan Poe
 
  - Voice: `train_dotrice`
  - Preset: `ultra_fast`
  - Download: <a href="https://github.com/fakerybakery/tortoise-tts-guide/raw/main/examples/raven.mp3" download>Download File</a>
  - Instance: T4 (Free Colab)
+ - Year Published: 1845
+ - Release Date: July 17, 2023
  - Status: Completed
+
+## _The Lady, or the Tiger?_ by Frank R. Stockton
+
+ - Voice: `train_dotrice`
+ - Preset: `ultra_fast`
+ - Download: Currently Unavailable
+ - Instance: T4 (Free Colab)
+ - Year Published: 1882
+ - Release Date: In Progress
+ - Status: In Progress
 
 ## Speed
 
