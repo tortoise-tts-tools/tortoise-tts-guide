@@ -25,7 +25,7 @@ By dedicating time to further fine-tuning, we can ensure that the resulting mode
 
 ## Examples
 
-Some public domain literature has been converted to audio for your personal use only. Clips are licensed under CC-BY-NC-ND 4.0. You can listen to it, but can't share/republish it or include it in another work (e.g. video, podcast, etc), even short clips, without attribution. If your video/podcast/etc is commercial (includes having ads!), you **MAY NOT** include it withour prior written permission. If you'd like to include a clip or the whole audio in a commercial environment, please open an Issue on GitHub!
+Selected public domain literature has been converted into audio format for personal use only. The audio clips are licensed under CC-BY-NC-ND 4.0, granting you the right to listen to them privately. However, you are prohibited from sharing, republishing, or using them in any other creative work, such as videos, podcasts, etc., without proper attribution. It is strictly forbidden to include these audio clips, even in part, in any commercial work, which includes content with advertisements. If you wish to use the audio clips for commercial purposes, please request permission by opening an Issue on GitHub.
 
 ### _The Raven_ by Edgar Allan Poe
 
