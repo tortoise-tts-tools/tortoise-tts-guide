@@ -23,13 +23,15 @@ Ultimately, our objective is to produce audiobooks derived from public domain bo
 
 By dedicating time to further fine-tuning, we can ensure that the resulting models possess the desired level of quality and fidelity required for the creation of these audiobooks. This meticulous process will enable us to provide accessible and enjoyable content to a wide audience while maintaining the integrity of the original literary works.
 
-## Demo
+## Examples
 
-"The Raven" by Edgar Allan Poe. Generated using voice `train_dotrice`.
+## _The Raven_ by Edgar Allan Poe
 
-<a href="https://github.com/fakerybakery/tortoise-tts-guide/raw/main/raven.mp3" download>Download File</a>
-
-I generated this on a free Colab instance (T4 GPU).
+ - Voice: `train_dotrice`
+ - Preset: `ultra_fast`
+ - Download: <a href="https://github.com/fakerybakery/tortoise-tts-guide/raw/main/examples/raven.mp3" download>Download File</a>
+ - Instance: T4 (Free Colab)
+ - Status: Completed
 
 ## Speed
 
