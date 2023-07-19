@@ -78,6 +78,10 @@ Click the button below to begin:
 
 **UPDATE: The use of `tortoise-tts-fastest` is no longer necessary as it appears to have been abandoned, with the changes merged upstream. However, if you still wish to use it, click [here](https://colab.research.google.com/github/fakerybakery/tortoise-tts-guide/blob/main/tortoise_tts_fast.ipynb) ([download](https://raw.githubusercontent.com/fakerybakery/tortoise-tts-guide/main/tortoise_tts_fast.ipynb)).**
 
+### Long Text
+
+Split text by newlines using our new project, [Tortoise LTK (Long Text Kit)](https://github.com/tortoisetts/tortoise-ltk).
+
 ## Fine-Tuning
 
 For a simplified GUI experience, refer to the section above.
