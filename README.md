@@ -1,3 +1,6 @@
+| :warning: **Important!** :warning: Further development has been moved to Codeberg. Please visit our [repository](https://codeberg.org/tortoisetts/tortoise-tts-guide) for more information.
+| ---
+
 # tortoise-tts-guide
 ## by @fakerybakery
 
