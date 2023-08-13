@@ -1,4 +1,4 @@
-| :warning: **Important!** :warning: Further development has been moved to Codeberg. Please visit our [repository](https://codeberg.org/tortoisetts/tortoise-tts-guide) for more information.
+| :warning: **Important!** :warning: Further development has been moved to Codeberg. Please visit our [repository](https://codeberg.org/tortoisetts/tortoise-tts-guide) for more information. We have new audiobooks & more there!
 | ---
 
 # tortoise-tts-guide
