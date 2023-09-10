@@ -6,6 +6,6 @@
 
 ~Everything else (banner images, etc) is licensed under CC-BY-NC-ND 4.0 unless otherwise stated.~
 
-Thanks for the 6 stars! I'm going to go ahead and open-source this under AGPL-3.0.
+Thanks for the 6 stars! I'm going to go ahead and open-source this under AGPL-3.0. Might make it MIT if I get even more stars!
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
