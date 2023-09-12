@@ -1,4 +1,4 @@
-# License
+# License: AGPL 3
 
 ~Basically, I'll be sad if someone goes and sells my code and makes a profit with only minor modifications of my code, so I used CC-BY-NC... license. Sorry~
 
