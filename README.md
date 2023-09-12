@@ -4,7 +4,7 @@
 # tortoise-tts-guide
 ## by @fakerybakery
 
-Jump to: [Inference](#inference) - [Fine-Tuning](#fine-tuning)
+**Want to get straight to the tutorial and skip everything about motivation, goals, etc?** Jump to: [Inference](#inference) - [Fine-Tuning](#fine-tuning)
 
 Tortoise TTS stands as a leading text-to-speech (TTS) program renowned for its exceptional capabilities. It has gained considerable recognition, with some suggesting that it may power the highly acclaimed ElevenLabs TTS service.
 
