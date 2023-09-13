@@ -12,6 +12,10 @@ My primary objective is to ensure the accessibility of Tortoise TTS to a wider a
 
 It is important to note that I do not endorse any models listed in this guide. Use this guide at your own risk!
 
+## Overview
+
+* Full GPU Support (CUDA, M1/M2 Macs, as well as CPU)
+
 ## Discuss (all things) Tortoise TTS
 
 [Discussions](https://github.com/fakerybakery/tortoise-tts-guide/discussions)
