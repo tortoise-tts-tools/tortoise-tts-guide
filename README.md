@@ -116,7 +116,7 @@ Guide for custom fine-tuning is coming soon...
 - [DL Art School](https://github.com/neonbjb/DL-Art-School)
 - [DL Art School Fork for Tortoise TTS](https://github.com/152334H/DL-Art-School)
 - [Tortoise TTS on Hugging Face](https://huggingface.co/jbetker/tortoise-tts-v2)
-- [Download Tortoise TTS DVAE Model](https://huggingface.co/jbetker/tortoise-tts-v2/resolve/3704aea61678e7e468a06d8eea121dba368a798e/.models/dvae.pth)
+- [Download Tortoise TTS DVAE Model (aka. "The VQVAE Model")](https://huggingface.co/jbetker/tortoise-tts-v2/resolve/3704aea61678e7e468a06d8eea121dba368a798e/.models/dvae.pth)
 
 ## Tortoise Tips
 
