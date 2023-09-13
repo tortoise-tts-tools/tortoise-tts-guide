@@ -6,7 +6,7 @@
 
 **Want to get straight to the tutorial and skip everything about motivation, goals, etc?** Jump to: [Inference](#inference) - [Fine-Tuning](#fine-tuning)
 
-Tortoise TTS stands as a leading text-to-speech (TTS) program renowned for its exceptional capabilities. It has gained considerable recognition, with some suggesting that it may power the highly acclaimed ElevenLabs TTS service.
+Tortoise (TorToiSe) TTS stands as a leading text-to-speech (TTS) program renowned for its exceptional capabilities. It has gained considerable recognition, with some suggesting that it may power the highly acclaimed ElevenLabs TTS service.
 
 My primary objective is to ensure the accessibility of Tortoise TTS to a wider audience, eliminating the need for costly ElevenLabs subscriptions. Although Tortoise TTS exhibits a noticeably slower performance, there exist numerous enhancements at our disposal to optimize its speed and efficiency.
 
