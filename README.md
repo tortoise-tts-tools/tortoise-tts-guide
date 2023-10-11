@@ -110,9 +110,28 @@ Split text by newlines using our new project, [Tortoise LTK (Long Text Kit)](htt
 
 ## Fine-Tuning
 
-For a simplified GUI experience, refer to the section above.
+For a simplified GUI experience, refer to the section above (use the "MRQ" repo).
 
 Guide for custom fine-tuning is coming soon...
+
+## Image Gallery
+
+### The "MRQ" Repo
+
+The MRQ repo runs _FULLY_ in the web!
+
+Finetuning
+
+![CleanShot 2023-10-10 at 18 17 25@2x](https://github.com/tortoise-tts-tools/tortoise-tts-guide/assets/76186054/38d2971a-5bc9-4b29-95f8-cbb74b28c6ec)
+
+Inference
+
+![CleanShot 2023-10-10 at 18 19 11@2x](https://github.com/tortoise-tts-tools/tortoise-tts-guide/assets/76186054/7d38332c-38f0-499a-86d9-4a0deec37d9a)
+
+Finetuning Configuration
+
+![CleanShot 2023-10-10 at 18 20 23@2x](https://github.com/tortoise-tts-tools/tortoise-tts-guide/assets/76186054/501dc375-d890-43df-80cc-7fc6f057a663)
+
 
 ## Resources
 
