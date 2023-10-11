@@ -112,13 +112,15 @@ Split text by newlines using our new project, [Tortoise LTK (Long Text Kit)](htt
 
 For a simplified GUI experience, refer to the section above (use the "MRQ" repo).
 
+Times: it takes around 7 hours to finetune on 30 minutes on a RX6800. Do it overnight.
+
 Guide for custom fine-tuning is coming soon...
 
 ## Image Gallery
 
 ### The "MRQ" Repo
 
-The MRQ repo runs _FULLY_ in the web!
+The MRQ repo runs _FULLY_ in the web! It also works with AMD GPUs.
 
 Finetuning
 
