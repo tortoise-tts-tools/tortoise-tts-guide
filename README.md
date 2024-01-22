@@ -1,8 +1,7 @@
 | **Interested in an open-sourced SaaS API?** TTS API with streaming support coming soon! We plan to open-source a web-based API and SaaS framework (we probably won't host it)! [Drop a star here to register your interest!](https://github.com/tortoise-tts-tools/tts-api)
 | ---
 
-| :warning: **Important!** :warning: Further development has been moved to Codeberg. Please visit our [repository](https://codeberg.org/tortoisetts/tortoise-tts-guide) for more information. We have new audiobooks & more there! (I'll try to update this from time to time to keep it in sync & make sure it doesn't lag too far behind)
-| ---
+
 
 # :turtle: tortoise-tts-guide
 ## by @fakerybakery
